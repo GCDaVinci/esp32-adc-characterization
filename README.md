@@ -84,7 +84,6 @@ The default serial settings are:
 ## Output
 
 ### CSV File Format
-<img width="435" height="615" alt="image" src="https://github.com/user-attachments/assets/0b7647e2-0baa-40c9-a176-988849f9f2b5" />
 
 The program generates CSV files with the following columns:
 - **Timestamp**: Time of measurement (HH:MM:SS)
@@ -144,6 +143,7 @@ This project is open source. Feel free to modify and distribute as needed.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
+
 
 
 
