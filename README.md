@@ -1,6 +1,6 @@
 # ESP32 ADC Characterization
 
-This script is for characterizing the ESP32's 12-bit ADC performance by comparing measured voltage values with serial readings from the device. Note this script runs independently from the ESP32. The ESP32 must already be coded and flashed to be contiously reading ADC values, converting them to voltage values, and then printing the data to the serial port.
+A simple method for characterizing the ESP32's 12-bit ADC performance by comparing measured voltage values with serial readings from the device. The code for this project consists of two parts. The first is the code on the esp32 that continously reads the ADC value, converts it to a voltage value based on a 3.3v reference voltage, and then prints it to the serial port. The second code is a Python script that runs on your computer and reads the serial output of the esp32 via usb.
 
 ## Overview
 
@@ -106,6 +106,7 @@ The default serial settings are:
 ## Output
 
 ### CSV File Format
+<img width="435" height="615" alt="image" src="https://github.com/user-attachments/assets/0b7647e2-0baa-40c9-a176-988849f9f2b5" />
 
 The program generates CSV files with the following columns:
 - **Timestamp**: Time of measurement (HH:MM:SS)
@@ -165,4 +166,5 @@ This project is open source. Feel free to modify and distribute as needed.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
+
 
