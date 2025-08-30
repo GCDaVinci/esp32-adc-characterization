@@ -70,29 +70,7 @@ This project helps you evaluate the accuracy and linearity of your ESP32's ADC b
 
 ### Example Session
 
-```
-=== Python Serial Communication Project ===
-This script will continuously compare your measured voltages with serial data
-Type 'end' to save data to CSV and exit
-Press Ctrl+C to exit without saving
-------------------------------------------------------------
-
-Enter measured voltage (3-digit number, e.g., 3.30) or 'end' to save and exit: 3.30
-Reading serial data for measured voltage: 3.30V
-Reading from COM3 at 115200 baud...
-Waiting for valid voltage data...
-Received: 3.28
-[14:30:22] Serial: 3.280V | Measured: 3.300V | Difference: -0.020V
-✓ Voltage comparison completed and stored
-------------------------------------------------------------
-
-Enter measured voltage (3-digit number, e.g., 3.30) or 'end' to save and exit: end
-
-Saving 1 measurements to CSV...
-✓ Data saved to voltage_comparison_20241201_143022.csv
-✓ Total measurements: 1
-Goodbye!
-```
+<img width="634" height="520" alt="image" src="https://github.com/user-attachments/assets/5e1a3b05-b3be-40ad-bb63-714da05c4db5" />
 
 ### Configuration
 
@@ -166,5 +144,6 @@ This project is open source. Feel free to modify and distribute as needed.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
+
 
 
