@@ -84,12 +84,15 @@ The default serial settings are:
 ## Output
 
 ### CSV File Format
-
+<img width="418" height="650" alt="image" src="https://github.com/user-attachments/assets/5d37d060-f1a1-48b7-97cc-8781898ce92c" />
 The program generates CSV files with the following columns:
 - **Timestamp**: Time of measurement (HH:MM:SS)
 - **Measured Voltage (V)**: Your reference voltage measurement
 - **Serial Voltage (V)**: Voltage read from ESP32 via serial
 - **Difference (V)**: Calculated difference (Serial - Measured)
+
+With this data, you can easily create a scatter plot to assess the accuraty of your ESP32's ADC
+<img width="1061" height="622" alt="image" src="https://github.com/user-attachments/assets/db154658-d5b5-428f-81c4-158ab30853c4" />
 
 ### File Naming
 
@@ -143,6 +146,7 @@ This project is open source. Feel free to modify and distribute as needed.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
+
 
 
 
