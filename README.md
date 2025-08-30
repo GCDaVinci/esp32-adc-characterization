@@ -12,6 +12,8 @@ This project helps you evaluate the accuracy and linearity of your ESP32's ADC b
 
 ## Hardware Setup
 
+<img width="640" height="400" alt="ESP32_ADC_Wiring_Diagram drawio" src="https://github.com/user-attachments/assets/52c246c4-a9b7-40e7-b379-f76c68a3eba6" />
+
 ### Connection Details
 
 - **3.3V** → **Potentiometer VCC** (top terminal)
@@ -163,3 +165,4 @@ This project is open source. Feel free to modify and distribute as needed.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
+
